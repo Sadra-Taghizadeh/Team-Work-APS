@@ -81,7 +81,7 @@
               <strong>┤ ┥ ┦ ┧ ┨ ┩ ┪ ┫Nia­gara Falls├ ┝ ┞ ┟ ┠ ┡ ┢ ┣</strong>
             </dt>
 
-            <dt>Nia­gara Falls</dt>
+            
 
             <dd>
               Niagara Falls, waterfall on the Niagara River in northeastern
@@ -112,7 +112,7 @@
               <strong>┤ ┥ ┦ ┧ ┨ ┩ ┪ ┫Statue of Liberty├ ┝ ┞ ┟ ┠ ┡ ┢ ┣</strong>
             </dt>
 
-            <dt>Statue of Liberty</dt>
+            
 
             <dd>
               "The Statue of Liberty Enlightening the World" was a gift of
@@ -142,7 +142,7 @@
                 <strong>┤ ┥ ┦ ┧ ┨ ┩ ┪ ┫Stonehenge├ ┝ ┞ ┟ ┠ ┡ ┢ ┣</strong>
               </dt>
 
-              <dt>Stonehenge</dt>
+              
 
               <dd>
                 One of the most famous landmarks in the United Kingdom,
@@ -191,25 +191,41 @@
       </section>
       <section>
         <form>
-          <p>Was the content useful?</p>
-          <lable for="Q1">Of course</lable>
+          <p>
+          <label for="Q1">Was the content useful?</label><br>
+          Of course
           <input type="radio" name="content" id="Q1" />
-          <lable for="Q1">Not at all</lable>
+          Not at all
           <input type="radio" name="content" id="Q1" />
-          <p>Which of these places have you traveled to?</p>
-          <lable for="Q2">Nia­gara Falls</lable>
+          </p>
+          <p>
+          <label for="Q2">Which of these places have you traveled to?</label><br>
+          Nia­gara Falls
+          <input type="checkbox" id="Q2"/>
+          Statue of Liberty
           <input type="checkbox" id="Q2" />
-          <lable for="Q2">Statue of Liberty</lable>
+          Stonehenge
           <input type="checkbox" id="Q2" />
-          <lable for="Q2">Stonehenge</lable>
-          <input type="checkbox" id="Q2" />
-          <br /><lable for="Q3">Please enter your Email</lable>
-          <input type="email" id="Q3" />
-          <br /><lable for="Q4">Please enter your phone number</lable>
-          <input type="number" id="Q4" />
-          <br /><lable for="Q5">Please write your comment</lable>
-          <input type="text" id="Q5" placeholder="Write your comment ..." />
-          <button>Submit</button>
+          </label>
+          </p>
+          <br />
+          <p> 
+            <label for="1">Please enter your Email :</label>
+            <input type="email" id="1">
+          </p>
+          <br />
+          <p>
+            <label for="number">Please write your Number :</label>
+            <input type="number" id="number">
+          </p>
+          
+          <br />
+          <p>
+          <lable for="name">Please write your comment :</lable>
+          <input type="text" id="name" placeholder="please comment here....">
+          </p>
+          <button type="submit">Submit</button>
+
         </form>
       </section>
     </main>
