@@ -7,8 +7,55 @@
     <title>Fashion</title>
   </head>
   <body>
+    <header>
+      <h1>APS-NEWS</h1>
+
+      <p>
+        <menu>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <input
+                    type="search"
+                    placeholder="please search here"
+                    name="search"
+                  />
+                  <button type="submit"><a href="index.html">search</a></button>
+                </th>
+
+                <th>
+                  <pre>/..../<a href="SignUp.html" target="_blank"><button type="button">sign up</button></a></pre>
+                </th>
+                <th>
+                  <pre>/..../<button type="submit"><a href="index.html">Home</a></button></pre>
+                </th>
+                <th>
+                  <details>
+                    <summary>Life Style</summary>
+                    <a href="/" target="_blank">fashionable</a>
+                  </details>
+                </th>
+                <th>
+                  <details>
+                    <summary>Tourism</summary>
+                    <a href="/" target="_blank">Sights of the world</a>
+                  </details>
+                </th>
+                <th>
+                  <details>
+                    <summary>Health</summary>
+                    <a href="Health.html" target="_blank">Health and Care</a>
+                  </details>
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </menu>
+      </p>
+    </header>
     <main>
-      <h1>Fashion</h1>
+      <h2>Fashion</h2>
 
       <h2>Spring/Summer VS Fall/Winter</h2>
       <h3>Spring/Summer Fashion</h3>
@@ -142,6 +189,65 @@
           </tr>
         </tbody>
       </table>
+      <br />
+      <hr />
+      <form action="#">
+        <h3>Which season's style do like better?</h3>
+
+        <input
+          type="radio"
+          id="Spring/Summer"
+          name="drone"
+          value="Spring/Summer"
+        />
+
+        <label for="Spring/Summer">Spring/Summer</label>
+
+        <input type="radio" id="Fall/Winter" name="drone" value="Fall/Winter" />
+        <label for="Fall/Winter">Fall/Winter</label>
+        <h3>Which color pallet is your favorite?</h3>
+        <input
+          type="checkbox"
+          id="Bright pastel colors"
+          name="drone"
+          value="Bright pastel colors"
+        />
+        <label for="Bright pastel colors">Bright pastel colors</label>
+        <input
+          type="checkbox"
+          id="Dark colors"
+          name="drone"
+          value="Dark colors"
+        />
+        <label for="Dark colors">Dark colors</label>
+        <h3>Tell us more about your favorite styles:</h3>
+        <textarea
+          id="idea"
+          placeholder="tell us..."
+          cols="50"
+          rows="6"
+        ></textarea>
+        <br /><br />
+        <input type="submit" id="submit" name="drone" value="submit" />
+      </form>
     </main>
+    <footer>
+      <hr />
+      <table>
+        <thead>
+          <tr>
+            <td>
+              <pre><span>          ___________________________________________________________________________</span><a href="/"><strong>About Us</strong></a><span>.......</span></pre>
+            </td>
+            <td>
+              <pre><a href="/"><strong>Contact</strong></a><span>.......</span></pre>
+            </td>
+            <td>
+              <pre><a href="/"><strong>Privacy</strong></a><span>______________________________________________________________________________________</span></pre>
+            </td>
+          </tr>
+        </thead>
+      </table>
+    </footer>
   </body>
 </html>
